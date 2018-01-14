@@ -2,7 +2,9 @@ import React from "react";
 
 const Home = () => (
   <div>
-    <h2>Madlib Central</h2>
+
+    <h1>Madlib Central</h1>
+
   </div>
 );
 
