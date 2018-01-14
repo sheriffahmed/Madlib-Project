@@ -20,7 +20,10 @@ const nouns = [
   "dog",
   "doll",
   "dust",
-  "fan"
+  "fan",
+  "pen",
+  "bed",
+  "ant"
 ];
 
 const getAll = () => nouns;
