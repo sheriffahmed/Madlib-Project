@@ -1,3 +1,28 @@
-body {
-  background-color: lightcyan;
+
+*{
+  color: blueviolet;
+}
+
+body{
+  background-color:bisque;
+  text-align: center;
+
+};
+
+button{
+  border-radius: 50%;
+}
+input {
+  color: blueviolet
+}
+
+a:hover{
+  background-color: violet;
+  color: white;
+}
+
+input:hover{
+  background-color: violet;
+  
+
 }

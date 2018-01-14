@@ -23,18 +23,19 @@ class Madlib extends React.Component {
   };
 
   handleGenerate = e => {
-    const list = madlibAPI.getAll();
-    const num = Math.floor(Math.random() * list.length);
-    const num2 = Math.floor(Math.random() * list.length);
-    const num3 = Math.floor(Math.random() * list.length);
-    const num4 = Math.floor(Math.random() * list.length);
-    const num5 = Math.floor(Math.random() * list.length);
+    const noun = madlibAPI.getNouns();
+    const verb = madlibAPI.getVerbs();
+    const num = Math.floor(Math.random() * noun.length);
+    const num2 = Math.floor(Math.random() * noun.length);
+    const num3 = Math.floor(Math.random() * noun.length);
+    const num4 = Math.floor(Math.random() * verb.length);
+    const num5 = Math.floor(Math.random() * noun.length);
     this.setState({
-      word: list[num],
-      word2: list[num2],
-      word3: list[num3],
-      word4: list[num4],
-      word5: list[num5]
+      word: noun[num],
+      word2: noun[num2],
+      word3: noun[num3],
+      word4: verb[num4],
+      word5: noun[num5]
     });
   };
 
