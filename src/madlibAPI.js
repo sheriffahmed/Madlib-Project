@@ -23,7 +23,8 @@ const nouns = [
   "fan",
   "pen",
   "bed",
-  "ant"
+  "ant",
+  "pig"
 ];
 
 const getAll = () => nouns;
