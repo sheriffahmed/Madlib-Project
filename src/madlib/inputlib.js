@@ -52,8 +52,8 @@ class Madlib extends React.Component {
       <div>
         <h1> Madlib </h1>
         <p> Enter Words Below</p>
-        <input type="text" id="first" placeholder="Noun" /> <br />
-        <input type="text" id="second" placeholder="Noun" /> <br />
+        <input type="text" id="first" placeholder="Noun" /> <br /><br /> 
+        <input type="text" id="second" placeholder="Noun" /> <br /><br />
         <input type="text" id="third" placeholder="Noun" />
         <br />
         <input type="text" id="fourth" placeholder="Verb" /> <br />
