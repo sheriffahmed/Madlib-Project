@@ -1,5 +1,6 @@
 import axios from "axios";
 
+
 const wordList = {
   nouns: [
     "ball",
@@ -64,6 +65,34 @@ const wordList = {
     "unsightly"
   ]
 };
+
+const nouns = [
+  "ball",
+  "bat",
+  "bed",
+  "book",
+  "boy",
+  "bun",
+  "can",
+  "cake",
+  "cap",
+  "car",
+  "cat",
+  "cow",
+  "cub",
+  "cup",
+  "dad",
+  "day",
+  "dog",
+  "doll",
+  "dust",
+  "fan",
+  "pen",
+  "bed",
+  "ant",
+  "pig"
+];
+
 
 const getNouns = () => wordList.nouns;
 const getVerbs = () => wordList.verbs;
